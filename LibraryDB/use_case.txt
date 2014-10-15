@@ -1,0 +1,7 @@
+1. As an Exceleron Employee, I should be able to login and see books in my library
+2. As an Exceleron Employee, I should be able to register with my official email ID only
+3. As an Exceleron Admin, I should be able to CURD books
+4. As an Exceleron Admin, I should be able to maintain current books, READING books and future books required in library
+5. As an Exceleron Employee (After login), I should be able to see the list of books available in library
+6. As an Exceleron Employee (After login), I should be able to see the list of books taken for READING (Name, Date taken, "Remaining READING days")
+7. As an Exceleron Employee (After login), I should be able to "book" a book for READING (Number of READING days)

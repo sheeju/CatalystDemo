@@ -1,0 +1,2 @@
+CATALYST_DEBUG=0 perl script/dispatchtest_test.pl /
+CATALYST_DEBUG=0 perl script/dispatchtest_test.pl /dwarfs/grumpy/bashfull/sneezy
