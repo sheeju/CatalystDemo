@@ -1,0 +1,17 @@
+<!-- BEGIN site/header -->
+<h1 class="title">[% template.title or site.title %]</h1>
+<!-- END site/header -->
+[% IF c.user_exists() %]
+<header>
+	<div class="nav">
+		<ul>
+			<li class="home"><a href="/site/menu1">Menu1</a></li>
+			<li class="tutorials"><a href="/site/menu2">Menu2</a></li>
+			<li class="about"><a href="/site/menu3">Menu3</a></li>
+			<li class="news"><a href="/site/menu4">Menu4</a></li>
+			<li class="contact"><a href="/site/menu5">Menu5</a></li>
+			<li class="contact"><a href="/logout">Logout</a></li>
+		</ul>
+	</div>
+</header>
+[% END %]
